@@ -6,7 +6,7 @@ export class Draggable extends Component {
 
   drag = (e) =>{
     e.dataTransfer.setData('transfer', e.target.id);
-    console.log(e.target);  
+    
   }
 
   noAllowDrop = (e) =>{
@@ -25,4 +25,4 @@ export class Draggable extends Component {
 
 
 
-export default Draggable
+export default Draggable  

@@ -29,7 +29,7 @@ export default class Dnd extends React.Component{
         <Droppable id="dr1" >
        
         </Droppable>
-        <Designable id="dr1">
+        <Designable id="dr2">
         <Draggable id="item1" style={{margin:'8px'}}><Items>Image</Items> </Draggable>
           <Draggable id="item2" style={{margin:'8px'}}><Items>Text</Items> </Draggable>
           <Draggable id="item3" style={{margin:'8px'}}><Items>Price</Items> </Draggable>
